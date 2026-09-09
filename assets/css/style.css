@@ -1,0 +1,29 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+h1{
+    background-color:blueviolet;
+    color:white;
+    padding:10px;
+    margin:10px;
+    box-shadow:2px 2px 2p grey;
+    text-align:center;
+}
+
+.sportCard{
+    box-shadow:3px 3px 3px grey;
+    background-color:blanchedalmond;
+    text-align:center;
+}
+
+h3{
+    background-color:skyblue;
+    color:white;
+    padding:10px;
+    margin:10px;
+    box-shadow:3px 3px 3px grey;
+    text-align:center;
+}
