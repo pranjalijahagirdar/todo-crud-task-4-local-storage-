@@ -70,8 +70,8 @@ function onAddSport(eve){
         sportId:Date.now().toString()
     }
     sportsArr.push(sportObj)
-    sportForm.reset()
     localStorage.setItem('sportsArr', JSON.stringify(sportsArr))
+    sportForm.reset()
     let li = document.createElement('li')
     li.className = 'list-group-item d-flex justify-content-between align-items-center'
     li.id = sportObj.sportId;
